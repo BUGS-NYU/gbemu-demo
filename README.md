@@ -1,5 +1,16 @@
 # Slightly broken GB emulator
 
+This works on macOS/Linux and Windows 11 through WSLg (Sorry old Windows users!)
+
+1. Clone this repo (https://github.com/BUGS-NYU/gbemu-demo)
+2. Build it (install make first)
+    - To run the game, after running make, run `./build/gbemu tetris.gb`
+3. Two instructions are broken in opcodes.cc, try to fix them!
+4. Get Tetris working!
+    - There are two instructions that are broken in /src/opcodes.cc: _opcode_and(u8 value) and _opcode_adc(u8 value).
+    - Work on the `and` instruction first!
+    - Note: Use the pandocs (https://gbdev.io/pandocs/CPU_Instruction_Set.html)
+
 Your goal is to fix two broken instructions (_opcode_adc(u8 value), _opcode_and(u8 value)). Use the pandocs for help.
 
 Original readme below
