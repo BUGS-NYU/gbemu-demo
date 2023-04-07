@@ -1,3 +1,9 @@
+# Slightly broken GB emulator
+
+Your goal is to fix two broken instructions (_opcode_adc(u8 value), _opcode_and(u8 value)). Use the pandocs for help.
+
+Original readme below
+
 # gbemu
 
 `gbemu` is a Nintendo Gameboy emulator written in C++. It was written as an exercise (and for fun!) so its goals are exploration of modern C++ and clean code rather than total accuracy.
